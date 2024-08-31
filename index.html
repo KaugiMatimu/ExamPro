@@ -97,6 +97,84 @@
             width: 35px;
             height: 35px;
         }
+        .nav-link .badge {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+  vertical-align: top;
+  margin-left: 5px;
+}
+.services.section-bg {
+  background-color: #f8f9fa; /* Light background color */
+  padding: 60px 0;
+}
+
+.section-title {
+  margin-bottom: 40px;
+}
+
+.section-title span {
+  display: block;
+  font-size: 18px;
+  color: #007bff; /* Primary color for the accent */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.section-title p {
+  color: #555;
+}
+
+.icon-box {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+}
+
+.icon-box:hover {
+  transform: translateY(-10px);
+}
+
+.icon {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.services-list {
+  margin-top: 20px;
+  padding-left: 0;
+}
+
+.services-list li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+
   </style>
 
 
@@ -128,37 +206,20 @@ s0.parentNode.insertBefore(s1,s0);
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">Exams</a></li>
-          <li><a class="nav-link scrollto" href="#services">Take My Classes</a></li>
-          <li><a class="nav-link scrollto" href="#team">About</a></li>
-          <li><a class="nav-link scrollto" href="#team">Blogs</a></li>
-          <li><a class="nav-link scrollto" href="#team">Accounts</a></li>
-
-          <li class="dropdown"><a href="#"><span>IntellectGuide</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Ready Papers</a></li>
-<!--               <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li> -->
-              <li><a href="#">Study Guides</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#"><span>Accounts</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Register</a></li>
-              <li><a href="#">Login</a></li>
-            </ul>
-          </li>
-          <li><a class="getstarted scrollto" href="#about">Order Now</a></li>
+          <li><a class="nav-link scrollto" href="#about">ATI TEAS Test</a></li>
+          <li><a class="nav-link scrollto" href="#services">TEAS Practice Test</a></li>
+          <li><a class="nav-link scrollto" href="#study-guide">TEAS TEST Study Guide</a></li>
+          <li><a class="nav-link scrollto" href="#prep-course">TEAS Prep Course</a></li>
+          <li><a class="nav-link scrollto" href="#cart">
+            Cart 
+            <span class="badge" id="cart-count"><sup>0</sup></span>
+          </a></li>
+          <li><a class="nav-link scrollto" href="#blogs">Blogs</a></li>
+          <li><a class="getstarted scrollto" href="#order">Order Now</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
+      
 
     </div>
   </header><!-- End Header -->
@@ -170,7 +231,7 @@ s0.parentNode.insertBefore(s1,s0);
       <div class="row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
           <h1>Conquer Exams</h1>
-          <h2>Your Success, Our Expertise: Ace Every Exam with Confidence</h2>
+          <h2>Your Success, Our Expertise: Everything You Need to Ace You TEAS Tests</h2>
           <div class="d-flex">
             <a href="#about" class="btn-get-started scrollto">Get Started</a>
           </div>
@@ -193,15 +254,15 @@ s0.parentNode.insertBefore(s1,s0);
           <div class="col-lg-4 col-md-6">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-laptop"></i></div>
-              <h4 class="title"><a href="">Exams</a></h4>
-              <p class="description">Master Your Academic Journey with ExamPro</p>
-              <p class="description">At ExamPro, we provide top-notch exam help services designed to boost your academic success. Our offerings include:
+              <h2 class="title"><a href="">TEAS Online Course</a></h2>
+              <p class="description">Ace your TEAS exam with ExamPro's</p>
+              <p class="description">Ace your TEAS exam with ExamPro's TEAS Online Course—flexible, comprehensive, and tailored to your needs. Study at your own pace 
+                with expert guidance and 24/7 access to all the resources you need. Your success is just a click away!. Our offerings include:
                 <ul>
-                  <li><b>Personalized Tutoring: </b>Tailored sessions to address your specific needs.</li>
-                  <li><b>Study Guides: </b>Comprehensive materials to streamline your study process.</li>
-                  <li><b>Practice Exams: </b>Realistic tests to enhance your exam readiness.</li>
-                  <li><b>Essay Assistance: </b>Expert help to improve your writing skills.</li>
-                  <li><b>24/7 Support: </b>Access to help whenever you need it.</li>
+                  <li><b>Interactive video lessons led by experts</b></li>
+                  <li><b>Flexible study schedules tailored to your needs</b></li>
+                  <li><b>24/7 access to course materials and support</b></li>
+                  <li><b>Comprehensive coverage of all TEAS exam topics</b></li>
                 </ul>
               </p>
               <p class="description">Achieve your best results with ExamPro – your partner in academic excellence.</p>
@@ -211,14 +272,15 @@ s0.parentNode.insertBefore(s1,s0);
           <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-card-checklist"></i></div>
-              <h4 class="title"><a href="">Take My Classes</a></h4>
-              <p class="description">Welcome to ExamPro, your ultimate solution for academic success. We specialize in "Take My Classes" services, ensuring you stay ahead with:
+              <h2 class="title"><a href="">TEAS Test Study Guide</a></h2>
+              <p class="description">Streamline your prep with ExamPro's TEAS Test Study Guide. This concise,
+                 expertly crafted guide breaks down key 
+                concepts into easy-to-understand sections, ensuring you’re ready to tackle the exam with confidence.  Our offerings include:
                 <ul>
-                  <li><b>Full Course Management: </b>From assignments to exams, we handle it all.</li>
-                  <li><b>Qualified Experts: </b>Experienced professionals dedicated to your academic excellence.</li>
-                  <li><b>Timely Submissions: </b>Never miss a deadline with our prompt service.</li>
-                  <li><b>Grade Improvement: </b>Focused strategies to boost your grades.</li>
-                  <li><b>Confidential and Secure: </b>Your privacy is our priority.</li>
+                  <li><b>Concise, easy-to-understand breakdowns of key concepts</b></li>
+                  <li><b>Practice questions with detailed explanations</b></li>
+                  <li><b>Proven strategies for mastering each exam section</b></li>
+                  <li><b>Tips for time management and test-taking success</b></li>
                 </ul>
               </p>
               <p class="description">With ExamPro, excelling in your classes has never been easier.</p>
@@ -228,17 +290,17 @@ s0.parentNode.insertBefore(s1,s0);
           <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
             <div class="icon-box">
               <div class="icon"><i class="bi bi-clipboard-data"></i></div>
-              <h4 class="title"><a href="">Homework Help</a></h4>
-              <p class="description">Discover the best in academic assistance with ExamPro. Our Homework Help services are designed to support your educational journey with:
+              <h2 class="title"><a href="">TEAS Practice Test</a></h2>
+              <p class="description">Get exam-ready with ExamPro's TEAS Practice Test. Simulate the real 
+                test, identify your strengths, and focus on areas for improvement. Practice smart, score high!  Our offerings include:
                  <ul>
-                  <li><b>Expert Guidance: </b>Professional tutors available for all subjects.</li>
-                  <li><b>Detailed Solutions: </b>Step-by-step explanations to enhance understanding.</li>
-                  <li><b>Timely Assistance: </b>Quick help to meet your deadlines.</li>
-                  <li><b>24/7 Availability: </b>Support whenever you need it.</li>
-                  <li><b>Boost Your Grades: </b>Effective strategies to improve your performance</li>
+                  <li><b>Realistic practice exams mirroring the actual TEAS test</b></li>
+                  <li><b>Instant feedback with in-depth explanations</b></li>
+                  <li><b>Performance tracking to identify strengths and weaknesses</b></li>
+                  <li><b>Unlimited practice opportunities to build confidence and accuracy</b></li>
                 </ul>
               </p>
-              <p class="description">Let ExamPro handle your homework challenges and help you achieve academic excellence.</p>
+              <p class="description">Let ExamPro handle your TEAS challenges and help you achieve academic excellence.</p>
               <a class="btn btn-primary" href="#about">Order Now</a>
             </div>
           </div>
@@ -273,113 +335,34 @@ s0.parentNode.insertBefore(s1,s0);
 </section><!-- End About Section -->
 
 
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
-      <div class="container">
-
-        <div class="row counters">
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Clients</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Projects</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Hours Of Support</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Hard Workers</p>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Counts Section -->
 
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services section-bg">
-  <div class="container">
-    <div class="section-title">
-      <span>Take My Class: Online Classes Pricing</span>
-      <h2>Take My Class: Online Classes Pricing</h2>
-      <p>Struggling with online classes? Let ExamPro handle it! Our expert tutors manage your coursework, assignments, and exams, ensuring top grades and less stress. Achieve academic success effortlessly. Sign up now and excel with ExamPro!</p>
-    </div>
-
-    <div class="row">
-      <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-        <div class="icon-box">
-          <div class="icon"><i class="bx bxl-book"></i></div>
-          <h4><a href="">High School</a></h4>
-          <ul class="services-list">
-            <li><i class="fas fa-check-circle"></i>Quiz & Exams Help</li>
-            <li><i class="fas fa-check-circle"></i>Essay Support</li>
-            <li><i class="fas fa-check-circle"></i>Homework Assistance</li>
-            <li><i class="fas fa-check-circle"></i>Discussion Board Participation</li>
-            <li><i class="fas fa-check-circle"></i>Research & Writing Projects</li>
-            <li><i class="fas fa-check-circle"></i>Lab Reports & Data Analysis</li>
-            <li><i class="fas fa-check-circle"></i>Presentations & Creative Projects</li>
-            <li><i class="fas fa-check-circle"></i>Time Management & Organization</li>
-            <li><i class="fas fa-check-circle"></i>Subject-Specific Assistance</li>
-            <li><i class="fas fa-check-circle"></i>24/7 Support & Communication</li>
-          </ul>
-          <a class="btn btn-primary" href="">Order Now</a>
+    <section id="services" class="services section-bg py-5">
+      <div class="container">
+        <div class="section-title text-center mb-5">
+          <h2 class="font-weight-bold">TEAS Online Course: Online Classes Pricing</h2>
+          <p class="mb-4">Preparing for the TEAS exam and need resources to help you study?</p>
+          <p class="mb-4">Looking for details on the TEAS exam to know what to expect and how it works?</p>
+          <p class="mb-4">You've come to the right place! Find all the essential information about the ATI TEAS Version 7 exam here.</p>
+          <p class="mb-4">For test preparation, click the buttons below to access our study guide or online course, both loaded with videos, practice tests, and more! Try a free practice test with the first button!</p>
+          
+          <!-- Button Group -->
+          <div class="d-flex justify-content-center mt-4">
+            <a href="#" class="btn btn-primary mx-2">TEAS Online Course</a>
+            <a href="#" class="btn btn-success mx-2">TEAS Test Study Guide</a>
+            <a href="#" class="btn btn-info mx-2">TEAS Practice Test</a>
+          </div>
+        </div>
         </div>
       </div>
-
-      <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-        <div class="icon-box">
-          <h4><a href="">Graduate</a></h4>
-          <ul class="services-list">
-            <li><i class="fas fa-check-circle"></i>Advanced Essay & Dissertation Support</li>
-            <li><i class="fas fa-check-circle"></i>In-Depth Research & Literature Reviews</li>
-            <li><i class="fas fa-check-circle"></i>Statistical Analysis & Data Interpretation</li>
-            <li><i class="fas fa-check-circle"></i>Grant Proposal & Scholarship Essay Writing</li>
-            <li><i class="fas fa-check-circle"></i>Case Study & Problem-Solving Support</li>
-            <li><i class="fas fa-check-circle"></i>Customized Assignment Assistance</li>
-            <li><i class="fas fa-check-circle"></i>Presentation & Defense Coaching</li>
-            <li><i class="fas fa-check-circle"></i>Time Management & Dissertation Planning</li>
-            <li><i class="fas fa-check-circle"></i>Subject-Specific Experts</li>
-            <li><i class="fas fa-check-circle"></i>24/7 Support & Mentorship</li>
-          </ul>
-          <a class="btn btn-primary" href="">Order Now</a>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-        <div class="icon-box">
-          <h4><a href="">Masters & Ph.D</a></h4>
-          <ul class="services-list">
-            <li><i class="fas fa-check-circle"></i>Quiz & Exams Help</li>
-            <li><i class="fas fa-check-circle"></i>Masterful Thesis & Dissertation Support</li>
-            <li><i class="fas fa-check-circle"></i>Cutting-Edge Research & Methodology</li>
-            <li><i class="fas fa-check-circle"></i>Publication Help & Peer Review Writing</li>
-            <li><i class="fas fa-check-circle"></i>Grant Writing & Funding Support</li>
-            <li><i class="fas fa-check-circle"></i>Specialized Subject-Matter Expertise</li>
-            <li><i class="fas fa-check-circle"></i>Personalized Coaching & Mentorship</li>
-            <li><i class="fas fa-check-circle"></i>24/7 Support & Communication</li>
-          </ul>
-          <a class="btn btn-primary" href="">Order Now</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section><!-- End Services Section -->
+    </section><!-- End Services Section -->
+    
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials section-bg">
       <div class="container">
 
         <div class="section-title">
-          <span>Testimonials</span>
           <h2>Testimonials</h2>
-          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
         </div>
 
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -500,14 +483,42 @@ s0.parentNode.insertBefore(s1,s0);
 
       </div>
     </section><!-- End Cta Section -->
-
+        <!-- ======= Counts Section ======= -->
+        <section id="counts" class="counts">
+          <div class="container">
+    
+            <div class="row counters">
+    
+              <div class="col-lg-3 col-6 text-center">
+                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Clients</p>
+              </div>
+    
+              <div class="col-lg-3 col-6 text-center">
+                <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Projects</p>
+              </div>
+    
+              <div class="col-lg-3 col-6 text-center">
+                <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Hours Of Support</p>
+              </div>
+    
+              <div class="col-lg-3 col-6 text-center">
+                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Hard Workers</p>
+              </div>
+    
+            </div>
+    
+          </div>
+        </section><!-- End Counts Section -->
     
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
 
         <div class="section-title">
-          <span>Contact</span>
           <h2>Contact</h2>
         </div>
 
@@ -640,7 +651,17 @@ s0.parentNode.insertBefore(s1,s0);
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+<script>
+  // Example to update cart count dynamically
+function updateCartCount(count) {
+  document.getElementById('cart-count').innerText = count;
+}
 
+// Call this function when items are added to the cart
+updateCartCount(3); // Example usage to set cart count to 3
+
+</script>
 </body>
 
 </html>
+
