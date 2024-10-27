@@ -28,3 +28,4 @@ route::get('/show_products', [AdminController::class, 'show_products']);
 route::get('/delete_products/{id}', [AdminController::class, 'delete_products']);
 route::get('/update_products/{id}', [AdminController::class, 'update_products']);
 route::post('/update_product_confirm/{id}', [AdminController::class, 'update_product_confirm']); 
+route::get('/product_details/{id}', [HomeController::class, 'product_details']);
